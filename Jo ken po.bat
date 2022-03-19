@@ -11,6 +11,7 @@ set /a d=0
 set /p nick=Digite seu nick: 
 goto:sortear
 
+
 :sortear
 cls 
 set /a bot=(%random% %%5) + 1
